@@ -12,7 +12,6 @@ import {
   LabelProps,
   Tooltip,
 } from "recharts";
-import { RechartsDevtools } from "@recharts/devtools";
 import { useContext } from "react";
 import { bookContext } from "@/context/bookContext";
 import { BookType } from "@/book";
@@ -118,7 +117,6 @@ export default function CustomShapeBarChart() {
         />
       </Bar>
 
-      <RechartsDevtools />
     </BarChart>
   );
 }
